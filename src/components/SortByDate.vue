@@ -17,20 +17,17 @@
             </div>
             <div class="displayResult" v-if="value2 != -1" style="margin: 3%">
                 <div style="padding-top: 10em;">
-                    <el-carousel :interval="1500" type="card" height="200px">
+                    <el-carousel :interval="500" type="card" height="200px">
                         <el-carousel-item v-for="(obj) in emailResult">
 
                             <div style="color: #566063; padding-top: 1em; font-size: 20px;">
                                 <div v-if="obj.doc == 'pdf'">
-<!--                                    <img :src='require(`../assets/pdf.png`)' class="myIcon">-->
                                     <img :src='require(`../../public/pdf.png`)' class="myIcon">
                                 </div>
                                 <div v-if="obj.doc == 'word'">
-<!--                                    <img :src='require(`../assets/word.png`)' class="myIcon">-->
                                     <img :src='require(`../../public/word.png`)' class="myIcon">
                                 </div>
                                 <div v-if="obj.doc == 'han'">
-<!--                                    <img :src='require(`../assets/hangul.png`)' class="myIcon">-->
                                     <img :src='require(`../../public/hangul.png`)' class="myIcon">
                                 </div>
                                 <div style="padding-top: 0.7em">
@@ -98,17 +95,17 @@
                     name: '홍길동',
                     timestamp: '2019-10-22 20:10',
                     title: '첫번째 이메일',
-                    doc : "pdf"
+                    doc: "pdf"
                 }, {
                     name: '박철수',
                     timestamp: '2019-10-21 05:30',
                     title: '두번째 이메일',
-                    doc : "han"
+                    doc: "han"
                 }, {
                     name: '이서윤',
                     timestamp: '2019-10-21 23:15',
                     title: '세번째 이메일',
-                    doc : "word"
+                    doc: "word"
                 }, {
                     name: '강지훈',
                     timestamp: '2019-10-19 01:18',
@@ -118,8 +115,20 @@
                     name: '김민지',
                     timestamp: '2019-10-18 00:15',
                     title: '다섯번째 이메일',
-                    doc : "pdf"
+                    doc: "pdf"
                 },
+                    {
+                        name: '이재중',
+                        timestamp: '2019-10-20 23:15',
+                        title: '여섯째 이메일',
+                        doc: "han"
+                    },
+                    {
+                        name: '최재훈',
+                        timestamp: '2019-10-22 12:15',
+                        title: '다섯번째 이메일',
+                        doc : "word"
+                    },
                 ]
             };
         }
@@ -131,6 +140,7 @@
         height: 40px;
         width: 50px;
     }
+
     .myCol {
         color: white;
         border: 2px solid whitesmoke;

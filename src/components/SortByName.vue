@@ -28,12 +28,12 @@
             </div>
         </div>
 
-        <div class="wholeTable">
+        <div class="wholeTable" style="font-family: yanolja">
             <div>
                 <vue-good-table
                         :columns="columns"
                         :rows="rows"
-                        theme="black-rhino"
+                        theme="nocturnal"
                         :pagination-options="{
                          enabled: true,
                          mode: 'pages',
@@ -110,17 +110,17 @@
                     {
                         label: '10월',
                         field: 'oct',
-                        width: '60px'
+                        width: '68px'
                     },
                     {
                         label: '11월',
                         field: 'nov',
-                        width: '60px'
+                        width: '68px'
                     },
                     {
                         label: '12월',
                         field: 'dec',
-                        width: '60px'
+                        width: '68px'
                     },
                 ],
                 rows: [
@@ -142,11 +142,16 @@
                 data: [
                     {
                         name: '홍길동',
-                        freq: [5, 10, 19, 4, 20, 9, 15, 30, 40, 10, 60, 24]
+                        freq: [5, 10, 19, 4, 20, 9, 15, 30, 40, 10, 60, 24, 30]
                     },
                     {
                         name: '김철수',
-                        freq: [0, 50, 30, 45, 20, 8, 10, 18, 30, 29, 14, 23]
+                        freq: [0, 50, 30, 45, 20, 8, 10, 18, 30, 29, 14, 23, 5]
+
+                    },
+                    {
+                        name: '이지윤',
+                        freq: [30, 90, 33, 23, 30, 20, 4, 18, 20, 10, 20, 14, 12]
 
                     }
                 ]
