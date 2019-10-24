@@ -46,7 +46,7 @@
 ## 저작권 및 사용권 정보 (Copyright / End User License)
  * [MIT](https://github.com/JaeLee18/roka/blob/master/LICENSE.md)
 ## 배포자 및 개발자의 연락처 정보 (Contact Information)
-  * approach0218@gmail.com
+  * Github Id: JaeLee18
   
 ## 알려진 버그 (Known Issues)
 
