@@ -1,4 +1,8 @@
 # Docs
+ * 다양한 이메일 계정들을 하나로 통합시키고, 첨부파일 까지 날짜별 사용자별 모아 볼수있는 어플리케이션.
+ * 직관적인 시각화를 통해 누가 얼마나 보내는지 트렌드를 쉽게 파악 가능하다.
+
+
 ## 개발문서(화면정의서)
 * [Link](https://github.com/JaeLee18/roka/blob/master/WEB_DOCS_%EC%9D%B4%EC%9E%AC%EC%A4%91_%EA%B0%9C%EB%B0%9C%EB%AC%B8%EC%84%9C(%ED%99%94%EB%A9%B4%EC%A0%95%EC%9D%98%EC%84%9C).pdf)
 
@@ -17,7 +21,7 @@
 ## 사용법 (Getting Started)
  1) npm run serve
  2) http://localhost:8080
-    * 모바일 디스플레이를 위해 크롬브라우저 - Ctrl+Shift+M 을 누르고 디스플레이 대상은 상단에서 "iPhone6/7/8Plus" 로 설정
+    * 모바일 디스플레이를 위해 크롬브라우저 - 마우스 오른쪽 버튼 - 검사 -Ctrl+Shift+M 을 누르고 디스플레이 대상은 상단에서 "iPhone6/7/8Plus" 로 설정
 
 ## 파일 정보 및 목록 (File Manifest)
 1) Assets
