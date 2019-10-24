@@ -34,7 +34,7 @@
 5) public
     * png파일들: "분석-날짜별 첨부파일 모아보기"에 삽입하기위한 파일 로고들.
 ## 저작권 및 사용권 정보 (Copyright / End User License)
- * MIT
+ * [MIT](https://github.com/JaeLee18/roka/blob/master/LICENSE.md)
 ## 배포자 및 개발자의 연락처 정보 (Contact Information)
   * approach0218@gmail.com
   
