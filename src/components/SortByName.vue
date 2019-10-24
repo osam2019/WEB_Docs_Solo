@@ -11,14 +11,14 @@
         <div class="graph" style="padding-top: 3em; color: #bcbcbc">
             <div v-for="(obj, idx) in data">
                 <div v-if="userName == obj.name">
-                     Received Email Trend from {{obj.name}}
+                     Attached File Trend from <i class="el-icon-user"/> {{obj.name}}
                     <div class="drawingTrend" style="padding-top: 3em">
                         <trend
                                 :data="obj.freq"
                                 :gradient="['#e3500b', '#dff261', '#70ff33  ']"
                                 auto-draw
                                 autoDrawDuration="5000"
-                                
+
 
                         >
                         </trend>

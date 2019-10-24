@@ -18,7 +18,7 @@
                     <el-menu-item index="2-2" @click="goName()" >사용자 별 첨부파일 트렌드보기</el-menu-item>
                 </el-submenu>
                 <el-menu-item index="3" @click="goHome()">로그아웃</el-menu-item>
-                <el-menu-item index="4" ><i class ="el-icon-user" style="color: white; padding-left: 2em;"></i></el-menu-item>
+                <el-menu-item index="4" @click="goMailList()"><i class ="el-icon-user" style="color: white;"/>Test User</el-menu-item>
             </el-menu>
         </div>
 
@@ -34,7 +34,8 @@
         data() {
             return {
                 activeIndex: '1',
-                activeIndex2: '1'
+                activeIndex2: '1',
+                ishello: false
             };
         },
         methods: {
@@ -53,7 +54,7 @@
             },
             goMailList(){
                 this.$router.push("/mailList");
-            },
+            }
 
         }
     }
