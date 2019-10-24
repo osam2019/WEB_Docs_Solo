@@ -17,7 +17,7 @@
             </div>
             <div class="displayResult" v-if="value2 != -1" style="margin: 3%">
                 <div style="padding-top: 10em;">
-                    <el-carousel :interval="500" type="card" height="200px">
+                    <el-carousel :interval="1000" type="card" height="200px">
                         <el-carousel-item v-for="(obj) in emailResult">
 
                             <div style="color: #566063; padding-top: 1em; font-size: 20px;">

@@ -2,7 +2,7 @@
     <div class="statContainer">
         <div class="search" style="padding-top: 2.4em; margin: 1px">
             <el-input type="text"
-                      placeholder="찾고싶은 이름을 입력해주세요.   ex)홍길동, 김철수"
+                      placeholder="찾고싶은 이름을 입력해주세요.   ex)홍길동, 박철수"
                       v-model="userName">
                 <i slot="prefix" class="el-input__icon el-icon-search"></i>
             </el-input>
@@ -15,9 +15,10 @@
                     <div class="drawingTrend" style="padding-top: 3em">
                         <trend
                                 :data="obj.freq"
-                                :gradient="['#e3500b', '#dff261', '#c2fffe']"
+                                :gradient="['#e3500b', '#dff261', '#70ff33  ']"
                                 auto-draw
                                 autoDrawDuration="5000"
+                                
 
                         >
                         </trend>
@@ -37,7 +38,6 @@
                         :pagination-options="{
                          enabled: true,
                          mode: 'pages',
-                         perPage: 2,
                          }"
                         :search-options="{
                          enabled: true
@@ -145,7 +145,7 @@
                         freq: [5, 10, 19, 4, 20, 9, 15, 30, 40, 10, 60, 24, 30]
                     },
                     {
-                        name: '김철수',
+                        name: '박철수',
                         freq: [0, 50, 30, 45, 20, 8, 10, 18, 30, 29, 14, 23, 5]
 
                     },
