@@ -17,7 +17,7 @@
                                 :data="obj.freq"
                                 :gradient="['#e3500b', '#dff261', '#70ff33  ']"
                                 auto-draw
-                                autoDrawDuration="5000"
+                                autoDrawDuration=3000
 
 
                         >

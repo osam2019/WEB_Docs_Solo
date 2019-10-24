@@ -13,6 +13,7 @@
 ## 사용법 (Getting Started)
  1) npm run serve
  2) http://localhost:8080
+    * 모바일 디스플레이를 위해 크롬브라우저 - Ctrl+Shift+M 을 누르고 디스플레이 대상은 상단에서 "iPhone6/7/8Plus" 로 설정
 
 ## 파일 정보 및 목록 (File Manifest)
 1) Assets

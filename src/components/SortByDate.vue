@@ -12,7 +12,8 @@
                         range-separator="~"
                         start-placeholder="Start date"
                         end-placeholder="End date"
-                        :picker-options="pickerOptions">
+                        :picker-options="pickerOptions"
+                        >
                 </el-date-picker>
             </div>
             <div class="displayResult" v-if="value2 != -1" style="margin: 3%">
