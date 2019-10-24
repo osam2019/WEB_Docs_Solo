@@ -1,5 +1,9 @@
 # Docs
+## 개발문서(화면정의서)
+* [Link](https://github.com/JaeLee18/roka/blob/master/WEB_DOCS_%EC%9D%B4%EC%9E%AC%EC%A4%91_%EA%B0%9C%EB%B0%9C%EB%AC%B8%EC%84%9C(%ED%99%94%EB%A9%B4%EC%A0%95%EC%9D%98%EC%84%9C).pdf)
 
+## 프로젝트 PPT
+* [Link](https://github.com/JaeLee18/roka/blob/master/WEB_DOCS_%EC%9D%B4%EC%9E%AC%EC%A4%91_PPT(pdf%EB%B2%84%EC%A0%84).pdf)
 
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
 * node.js 설치
